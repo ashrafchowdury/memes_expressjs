@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express Memes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *{ margin: 0px; padding: 0px; box-sizing: border-box; font-family:
+      'Poppins', sans-serif; } .memes_section{ width: 100vw; height: 100vh;
+      display: flex; flex-direction: column; justify-content: center;
+      align-items: center; } .memes_section h1{ font-size: 38px; color: rgb(31,
+      31, 31); } .memes_section img{ width: 400px; border-radius: 4px;
+      box-shadow: 0px 4px 10px rgba(29, 29, 29, 0.342); margin: 50px 0px; }
+      .memes_section button{ padding: 10px 50px; cursor: pointer; border-radius:
+      4px; font-size: 16px; background-color: tomato; color: white; border:
+      none; }
+    </style>
+  </head>
+  <body>
+    <section class="memes_section">
+      <h1>Random Memes</h1>
+      <img src={{image}} alt="memes" />
+      {{!-- <button class="button">NEXT</button> --}}
+    </section>
+  </body>
+</html>

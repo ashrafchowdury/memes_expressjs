@@ -1,0 +1,16 @@
+{
+  "name": "memes_expressjs",
+  "version": "1.0.0",
+  "description": "Creating a Random Meme Application Using Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashraf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "requests": "^0.3.0"
+  }
+}
